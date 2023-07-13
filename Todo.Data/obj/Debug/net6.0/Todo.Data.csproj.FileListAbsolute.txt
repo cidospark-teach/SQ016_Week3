@@ -1,0 +1,42 @@
+C:\Users\hp Envy\source\repos\SQ014\Solution to Tasks\MyTodo.UI\Todo.Data\bin\Debug\net6.0\Todo.Data.deps.json
+C:\Users\hp Envy\source\repos\SQ014\Solution to Tasks\MyTodo.UI\Todo.Data\bin\Debug\net6.0\Todo.Data.runtimeconfig.json
+C:\Users\hp Envy\source\repos\SQ014\Solution to Tasks\MyTodo.UI\Todo.Data\bin\Debug\net6.0\Todo.Data.dll
+C:\Users\hp Envy\source\repos\SQ014\Solution to Tasks\MyTodo.UI\Todo.Data\bin\Debug\net6.0\Todo.Data.pdb
+C:\Users\hp Envy\source\repos\SQ014\Solution to Tasks\MyTodo.UI\Todo.Data\obj\Debug\net6.0\Todo.Data.csproj.AssemblyReference.cache
+C:\Users\hp Envy\source\repos\SQ014\Solution to Tasks\MyTodo.UI\Todo.Data\obj\Debug\net6.0\Todo.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hp Envy\source\repos\SQ014\Solution to Tasks\MyTodo.UI\Todo.Data\obj\Debug\net6.0\Todo.Data.AssemblyInfoInputs.cache
+C:\Users\hp Envy\source\repos\SQ014\Solution to Tasks\MyTodo.UI\Todo.Data\obj\Debug\net6.0\Todo.Data.AssemblyInfo.cs
+C:\Users\hp Envy\source\repos\SQ014\Solution to Tasks\MyTodo.UI\Todo.Data\obj\Debug\net6.0\Todo.Data.csproj.CoreCompileInputs.cache
+C:\Users\hp Envy\source\repos\SQ014\Solution to Tasks\MyTodo.UI\Todo.Data\obj\Debug\net6.0\Todo.Data.dll
+C:\Users\hp Envy\source\repos\SQ014\Solution to Tasks\MyTodo.UI\Todo.Data\obj\Debug\net6.0\refint\Todo.Data.dll
+C:\Users\hp Envy\source\repos\SQ014\Solution to Tasks\MyTodo.UI\Todo.Data\obj\Debug\net6.0\Todo.Data.pdb
+C:\Users\hp Envy\source\repos\SQ014\Solution to Tasks\MyTodo.UI\Todo.Data\obj\Debug\net6.0\Todo.Data.genruntimeconfig.cache
+C:\Users\hp Envy\source\repos\SQ014\Solution to Tasks\MyTodo.UI\Todo.Data\obj\Debug\net6.0\ref\Todo.Data.dll
+C:\Users\hp Envy\source\repos\SQ014\Solution to Tasks\MyTodo\Todo.Data\bin\Debug\net6.0\Todo.Data.deps.json
+C:\Users\hp Envy\source\repos\SQ014\Solution to Tasks\MyTodo\Todo.Data\bin\Debug\net6.0\Todo.Data.runtimeconfig.json
+C:\Users\hp Envy\source\repos\SQ014\Solution to Tasks\MyTodo\Todo.Data\bin\Debug\net6.0\Todo.Data.dll
+C:\Users\hp Envy\source\repos\SQ014\Solution to Tasks\MyTodo\Todo.Data\bin\Debug\net6.0\Todo.Data.pdb
+C:\Users\hp Envy\source\repos\SQ014\Solution to Tasks\MyTodo\Todo.Data\obj\Debug\net6.0\Todo.Data.csproj.AssemblyReference.cache
+C:\Users\hp Envy\source\repos\SQ014\Solution to Tasks\MyTodo\Todo.Data\obj\Debug\net6.0\Todo.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hp Envy\source\repos\SQ014\Solution to Tasks\MyTodo\Todo.Data\obj\Debug\net6.0\Todo.Data.AssemblyInfoInputs.cache
+C:\Users\hp Envy\source\repos\SQ014\Solution to Tasks\MyTodo\Todo.Data\obj\Debug\net6.0\Todo.Data.AssemblyInfo.cs
+C:\Users\hp Envy\source\repos\SQ014\Solution to Tasks\MyTodo\Todo.Data\obj\Debug\net6.0\Todo.Data.csproj.CoreCompileInputs.cache
+C:\Users\hp Envy\source\repos\SQ014\Solution to Tasks\MyTodo\Todo.Data\obj\Debug\net6.0\Todo.Data.dll
+C:\Users\hp Envy\source\repos\SQ014\Solution to Tasks\MyTodo\Todo.Data\obj\Debug\net6.0\refint\Todo.Data.dll
+C:\Users\hp Envy\source\repos\SQ014\Solution to Tasks\MyTodo\Todo.Data\obj\Debug\net6.0\Todo.Data.pdb
+C:\Users\hp Envy\source\repos\SQ014\Solution to Tasks\MyTodo\Todo.Data\obj\Debug\net6.0\Todo.Data.genruntimeconfig.cache
+C:\Users\hp Envy\source\repos\SQ014\Solution to Tasks\MyTodo\Todo.Data\obj\Debug\net6.0\ref\Todo.Data.dll
+C:\Users\hp Envy\Desktop\SQ016\MyTodo\Todo.Data\bin\Debug\net6.0\Todo.Data.deps.json
+C:\Users\hp Envy\Desktop\SQ016\MyTodo\Todo.Data\bin\Debug\net6.0\Todo.Data.runtimeconfig.json
+C:\Users\hp Envy\Desktop\SQ016\MyTodo\Todo.Data\bin\Debug\net6.0\Todo.Data.dll
+C:\Users\hp Envy\Desktop\SQ016\MyTodo\Todo.Data\bin\Debug\net6.0\Todo.Data.pdb
+C:\Users\hp Envy\Desktop\SQ016\MyTodo\Todo.Data\obj\Debug\net6.0\Todo.Data.csproj.AssemblyReference.cache
+C:\Users\hp Envy\Desktop\SQ016\MyTodo\Todo.Data\obj\Debug\net6.0\Todo.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hp Envy\Desktop\SQ016\MyTodo\Todo.Data\obj\Debug\net6.0\Todo.Data.AssemblyInfoInputs.cache
+C:\Users\hp Envy\Desktop\SQ016\MyTodo\Todo.Data\obj\Debug\net6.0\Todo.Data.AssemblyInfo.cs
+C:\Users\hp Envy\Desktop\SQ016\MyTodo\Todo.Data\obj\Debug\net6.0\Todo.Data.csproj.CoreCompileInputs.cache
+C:\Users\hp Envy\Desktop\SQ016\MyTodo\Todo.Data\obj\Debug\net6.0\Todo.Data.dll
+C:\Users\hp Envy\Desktop\SQ016\MyTodo\Todo.Data\obj\Debug\net6.0\refint\Todo.Data.dll
+C:\Users\hp Envy\Desktop\SQ016\MyTodo\Todo.Data\obj\Debug\net6.0\Todo.Data.pdb
+C:\Users\hp Envy\Desktop\SQ016\MyTodo\Todo.Data\obj\Debug\net6.0\Todo.Data.genruntimeconfig.cache
+C:\Users\hp Envy\Desktop\SQ016\MyTodo\Todo.Data\obj\Debug\net6.0\ref\Todo.Data.dll
