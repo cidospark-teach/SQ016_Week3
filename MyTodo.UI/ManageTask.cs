@@ -16,11 +16,14 @@ namespace MyTodo.UI
     public partial class ManageTask : Form
     {
         private readonly ITodoService todoService;
+        private readonly HelperUtil helper;
+
         public ManageTask(ITodoService todoService)
         {
             InitializeComponent();
 
             this.todoService = todoService;
+            helper = new HelperUtil(this.todoService);
         }
 
         private void btnUpdateTask_Click(object sender, EventArgs e)
@@ -28,20 +31,37 @@ namespace MyTodo.UI
             var taskId = lblTaskId.Text;
             var taskDesc = lblTaskToManage.Text;
 
-            var task = new MyTask
-            {
-                Id = taskId,
-                Description = taskDesc,
-                //status = status
-            };
-
+            var task = todoService.GetById(taskId);
+            if (task == null)
+                MessageBox.Show($"No user found with Id: {taskId}");
+            
+            task.Description = taskDesc;
             var result = todoService.Update(task);
             if (result != null)
             {
+                helper.LoadData();
                 this.Close();
             }
             else
                 MessageBox.Show("Description update failed!");
+        }
+
+        private void btnDeleteTask_Click(object sender, EventArgs e)
+        {
+            var taskId = lblTaskId.Text;
+
+            var task = todoService.GetById(taskId);
+            if (task == null)
+                MessageBox.Show($"No user found with Id: {taskId}");
+
+            var result = todoService.Delete(task);
+            if (result)
+            {
+                helper.LoadData();
+                this.Close();
+            }
+            else
+                MessageBox.Show("Could not delete task!");
         }
     }
 }

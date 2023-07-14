@@ -8,12 +8,14 @@ namespace MyTodo.UI
     {
         private readonly ITodoService todoService;
         private  ManageTask manageTask;
+        private readonly HelperUtil helper;
         public Form1(ITodoService todoService, ManageTask manageForm)
         {
             InitializeComponent();
             this.todoService = todoService;
             this.manageTask = manageForm;
-            LoadData();
+            helper = new HelperUtil(this.todoService);
+            helper.LoadData();
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -32,7 +34,7 @@ namespace MyTodo.UI
                 var result = todoService.AddNew(task);
                 if (result != null)
                 {
-                    LoadData();
+                    helper.LoadData();
                 }
                 else
                     MessageBox.Show("Description not failed to add!");
@@ -42,31 +44,6 @@ namespace MyTodo.UI
                 MessageBox.Show("Description not provided!");
             }
 
-        }
-
-        private void LoadData()
-        {
-            var list = todoService.GetAll();
-
-            var table = new DataTable();
-            table.Columns.Add("Id");
-            table.Columns.Add("Description");
-            table.Columns.Add("Status");
-
-            if (list.Count() > 0)
-            {
-                foreach(var listItem in list)
-                {
-                    table.Rows.Add(listItem.Id, listItem.Description, listItem.status);
-                }
-
-                dataGridView1.DataSource = table;
-            }
-            else
-            {
-                MessageBox.Show("No records found!");
-            }
-            dataGridView1.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
         }
 
 
@@ -80,7 +57,7 @@ namespace MyTodo.UI
                     manageTask = new ManageTask(todoService);
                 manageTask.Show();
                 manageTask.lblTaskId.Text = selectedRow.Cells[0].Value.ToString();
-                manageTask.lblTaskToManage.Text = selectedRow.Cells[1].Value.ToString();
+                manageTask.lblTaskToManage.Text = selectedRow.Cells[0].Value.ToString();
             }
             else
             {
